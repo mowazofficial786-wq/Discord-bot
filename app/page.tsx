@@ -33,7 +33,7 @@ export default function Home() {
               <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-75" />
               <span className="relative inline-flex h-2 w-2 rounded-full bg-primary" />
             </span>
-            <span className="text-sm font-medium text-primary">Server Online - Play.killermc.fun</span>
+            <span className="text-sm font-medium text-primary">Server Online - Play.killermc.fun:19132</span>
           </div>
 
           {/* Main heading */}
@@ -62,10 +62,10 @@ export default function Home() {
               variant="outline"
               className="h-14 gap-2 px-8 text-lg"
               onClick={() => {
-                navigator.clipboard.writeText('Play.killermc.fun')
+                navigator.clipboard.writeText('Play.killermc.fun:19132')
               }}
             >
-              <span className="font-mono">Play.killermc.fun</span>
+              <span className="font-mono">Play.killermc.fun:19132</span>
               <span className="text-xs text-muted-foreground">(Click to copy)</span>
             </Button>
           </div>
